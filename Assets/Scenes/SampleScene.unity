@@ -4462,6 +4462,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4477,6 +4478,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f758e22b35b803a418e7b10efc218af4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetToFollow: {fileID: 557889174}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4487,7 +4501,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.14962134, g: 0.33962262, b: 0.062477753, a: 0}
+  m_BackGroundColor: {r: 0.23025833, g: 0.49056602, b: 0.11338555, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4833,8 +4847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6975c34f387d440b85002f09065880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 200
-  moveSpeed: 10
+  turnSpeed: 300
+  moveSpeed: 18
 --- !u!50 &557889178
 Rigidbody2D:
   serializedVersion: 4
@@ -10847,7 +10861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483635815}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 20, y: 0, z: 0}
+  m_LocalPosition: {x: 19.96, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1409320010}
@@ -12794,7 +12808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801459731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.12, y: -10.63, z: 0}
+  m_LocalPosition: {x: 33.12, y: -10.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1409320010}
